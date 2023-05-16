@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>이미지 밝기&그라디언트</title>
+</head>
+<body>
+    <!-- 밝기 조절 -->
+    <ul class="brightness">
+        <li>
+            <img src="images/dog.jpg" alt="강아지">               
+            <span>brightness: 0%</span>
+        </li>
+        <li>
+            <img src="images/dog.jpg" alt="강아지">
+            <span>brightness: 50%</span>
+        </li>
+        <li>
+            <img src="images/dog.jpg" alt="강아지">
+            <span>brightness: 100% (원본)</span>
+        </li>
+        <li>
+            <img src="images/dog.jpg" alt="강아지">
+            <span>brightness: 200%</span>
+        </li>
+    </ul>
+    <!-- 투명도 조절 -->
+    <ul class="opacity">
+        <li>
+            <img src="images/dog.jpg" alt="강아지">
+            <span>원본</span>
+        </li>
+        <li>
+            <div class="img_bg">
+                <img src="images/dog.jpg" alt="강아지">
+            </div>
+            <span>opacity 0.5 background-color: black;</span>
+        </li>
+    </ul>
+    <!-- 투명도 & 그라디언트 -->
+    <ul class="linear_gradient">
+        <li>
+            <img src="images/dog.jpg" alt="강아지">
+            <span>원본</span>
+        </li>
+        <li>
+            <div class="img_bg">
+                <!-- <img src="images/dog.jpg" alt="강아지"> -->
+            </div>
+            <span>linear-gradient</span>
+        </li>
+    </ul>
+    <!-- namebar영역 -->
+    <div class="namebar">
+        <p>KIMHANBIN</p>
+        <div class="bar"></div>
+    </div>
+    <!-- text-linear -->
+    <div class="text-linear"></div>
+    <!-- text-radial -->
+    <div class="text-radial"></div>
+    <!-- textbox -->
+    <div class="text"></div>
+    <p class="name">KIMHANBIN</p>
+</body>
+</html>

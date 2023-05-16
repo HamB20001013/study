@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*
+    box-sizing은 box를 어떤 기준으로 크기를 측정할 것인가인데
+    content-box의 경우, 컨텐츠를 기준으로 박스 크기가 결정이 되고
+    border-box의 경우, 테두리를 포함해 박스 크기가 결정이 된다
+    */
+}
+
+ul, li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    background-color: violet;
+}
+li {
+    width: 100px; height: 100px;
+    background-color: darkorange;
+    text-align: center;
+    line-height: 100px;
+    margin: 50px;
+}
+
+h1 {
+    width: 100px; height: 100px;
+    display: inline-block;
+    background-color: blueviolet;
+}
+span {
+    display: block;
+}
+
+.bellyGom {
+    display: inline-block;
+}
+img {
+    display: block;
+}
+h3 {
+    margin: 10px;
+    text-align: center;
+}
+
+.box01 {
+    width: 100px; height: 100px;
+    background-color: cyan;
+    margin: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+}
+.box02 {
+    width: 100px; height: 100px;
+    background-color: magenta;
+    margin: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+}
+.box03 {
+    width: 100px; height: 100px;
+    background-color: yellow;
+    margin: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+}
+

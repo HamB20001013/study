@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+
+/* .wrap {
+    
+} */
+
+.inner {
+    margin: 0 auto;
+    width: 1200px; height: 700px;
+    background-color: plum;
+    text-align: center;
+    color: black;
+}
+
+/* header영역 */
+header {
+    width: 1200px; height: 100px;
+    background-color: blueviolet;
+    line-height: 100px;
+}
+.logo {
+    width: 20%; height: 100px;
+    background-color: blanchedalmond;
+    float: left;
+}
+.menu {
+    width: 80%; height: 100px;
+    background-color: lightcoral;
+    float: left;
+}
+
+/* slide영역 */
+.slide {
+    width: 1200px; height: 300px;
+    background-color: crimson;
+    line-height: 300px;
+}
+
+/* content영역 */
+.content {
+    width: 1200px; height: 200px;
+    background-color: green;
+    line-height: 200px;
+}
+.notice {
+    width: 40%; height: 200px;
+    background-color: olive;
+    float: left;
+}
+.banner {
+    width: 30%; height: 200px;
+    background-color: lightseagreen;
+    float: left;
+}
+.link {
+    width: 30%; height: 200px;
+    background-color: lightslategray;
+    float: left;
+}
+
+/* footer영역 */
+footer {
+    width: 1200px; height: 100px;
+    background-color: gold;
+    line-height: 100px;
+}
+.f-logo {
+    width: 20%; height: 100px;
+    background-color: lightgreen;
+    float: left;
+}
+.copyright {
+    width: 60%; height: 100px;
+    background-color: lightyellow;
+    float: left;
+}
+.sns {
+    width: 20%; height: 100px;
+    background-color: mediumpurple;
+    float: left;
+}

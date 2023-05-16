@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+span {
+    display: block;
+}
+
+.musical {
+    width: 1500px; height: 1000px;
+    margin: 0 auto;
+}
+.musical h1 {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 55px;
+    color: green;
+}
+.musical01 {
+    float: left;
+}
+.musical02 {
+    float: left;
+}
+.musical03 {
+    float: left;
+}
+.musical04{
+    float: left;
+}
+
+.ticket-link {
+    width: 300px; height: 400px;
+    display: block;
+    margin: 20px;
+}
+.ticket-img {
+    width: 100%; height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    background-color: aquamarine;
+}
+.ticket-img::after {
+    width: 100%; height: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, transparent 60%, rgba(0, 0, 0, 0.4));
+}
+.ticket-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ticket-rank {
+    font-size: 70px;
+    color: white;
+    font-weight: 700;
+    /* z-index를 사용하기 위해서는 positon이 있어야한다 */
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+    z-index: 1;
+}
+.ticket-info {
+    padding: 20px 10px;
+    background-color: white;
+}
+.ticket-info-list li {
+    margin: 0 0 5px 0;
+}
+.ticket-title {
+    height: 40px;
+    font-size: 18px;
+    color: #111;
+    line-height: 22px;
+    font-weight: 700;
+}
+.ticket-hall {
+    font-size: 15px;
+    line-height: 15px;
+    color: #666;
+}
+.ticket-date {
+    font-size: 14px;
+    color: #999;
+    line-height: 17px;
+}
+.ticket-sale {
+    font-size: 11px;
+    display: inline-block;
+    border: 1px solid rgba(239,62,67,0.3);
+    border-radius: 3px;
+    color: #ef3e43;
+    padding: 4px 8px;
+}

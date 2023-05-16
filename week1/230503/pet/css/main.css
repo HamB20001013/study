@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    width: 300px; height:80px;
+    background-color: indigo;
+    color: greenyellow;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    margin: 50px auto;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+ul, li {
+    background-color: midnightblue;
+    list-style: none;
+    text-align: center;
+    line-height: 70px;
+}
+ul {
+    width: 800px; height: 70px;
+    margin: 50px auto;
+}
+li {
+    display: inline-block;
+    margin: 0 30px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.img {
+    display: inline-block;
+    margin: 30px;
+    background-color: blueviolet;
+}
+img {
+    float: left;
+    margin: 10px 10px 0 10px;
+}
+p {
+    margin: 10px;
+}
+
+.box1 {
+    background-color: darkorange;
+    float: left;
+}
+.box2 {
+    background-color: darkcyan;
+    float: left;
+}
+.box3 {
+    background-color: darkmagenta;
+    float: right;
+}
+.box4 {
+    background-color: darkgreen;
+    clear: both;
+    /* 
+    clear는 float를 해제하는 태그
+    left: 왼쪽 해제
+    right: 오른쪽 해제
+    both: 양쪽 해제
+    */
+}

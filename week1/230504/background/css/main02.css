@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 800px; height: 500px;
+    margin: 0 auto;
+    background-color: greenyellow;
+    background-image: url("../images/by03.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+p {
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+    text-shadow: 5px 5px 3px black;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}

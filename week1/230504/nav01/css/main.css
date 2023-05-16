@@ -1,0 +1,61 @@
+/* 영어 번역하지 않.....?? */
+@charset "utf-8";
+
+h1 {
+    height: 100px;
+    background-color: dodgerblue;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    line-height: 100px;
+    text-shadow: -5px -5px 5px gray; /* 가로 세로 번짐정도 색 */
+}
+
+nav {
+    width: 1200px;
+    background-color: orangered;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px orange;
+}
+ul {
+    list-style: none;
+    list-style-image: url("../images/greenDot.png");
+    text-align: center;
+}
+li {
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 30px;
+    display: inline-block;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: darkgreen;
+}
+
+p {
+    background-color: cornflowerblue;
+    line-height: 200%;
+    /* text-decoration: underline overline; */
+}
+
+.trans1 {
+    background-color:green;
+    text-transform: capitalize; /* text를 대문자로 바꾸거나 소문자로 바꿔주는 속성 */
+    letter-spacing: 10px; /* 글자 간격 */
+}
+.trans2 {
+    background-color:green;
+    text-transform: uppercase; /* text를 대문자로 바꾸거나 소문자로 바꿔주는 속성 */
+    letter-spacing: 20px;
+}
+.trans3 {
+    background-color: green;
+    text-transform: lowercase; /* text를 대문자로 바꾸거나 소문자로 바꿔주는 속성 */
+    letter-spacing: 8px;
+}

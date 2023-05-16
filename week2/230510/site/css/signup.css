@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+.container {
+    width: 960px; height: 80px;
+    margin: 0 auto;
+}
+.navi {
+    width: 960px; height: 60px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+.navi ul {
+    list-style: none;
+    padding: 10px 0 0 0;
+    text-align: center;
+    padding: 0 0 5px 0;
+}
+.navi ul li {
+    width: 200px;
+    float: left;
+    padding: 10px;
+}
+/* 이 링크를 링크했을 때, 방문했을 때 어떻게 할꺼다!! */
+.navi a:link, .navi a:visited {
+    display: block; /* 글자만큼만 잡혔던 칸이 block을 하면 li너비 만큼 넓어진다 */
+    font-size: 14px;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+.navi a:hover, .navi a:focus {
+    background-color: #222;
+    color: white;
+}
+.navi a:active {
+    background-color: red;
+}
+
+#signup {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #222;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+#signup fieldset {
+    border: 1px solid #ccc;
+    margin: 0 0 30px 0;
+}
+#signup fieldset legend {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 10px 10px 10px;
+}
+#signup ul li {
+    list-style: none;
+    line-height: 30px;
+    padding: 5px 10px;
+    margin: 0 0 2px 0;
+}
+#signup button {
+    border: 1px solid #222;
+    border-radius: 20px;
+    padding: 7px 25px;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#signup fieldset:first-of-type label {
+    width: 60px;
+    float: left;
+    font-size: 13px;
+}
+/* #signup input[type=text], input[type=tel] {
+    width: 200px;
+    background-color: blue;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 3px;
+} */
+#signup input:not([type=radio]) {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 3px;
+}
+#signup input:not([type=radio]):hover {
+    border-color: red;
+}
+#signup input:checked + label {
+    color: red;
+    font-weight: bold;
+}

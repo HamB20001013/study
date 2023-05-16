@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+/* .wrap {
+    
+} */
+
+.inner {
+    margin: 0 auto;
+    width: 1200px; height: 700px;
+    background-color: plum;
+    text-align: center;
+    color: black;
+}
+
+/* header영역 */
+header {
+    width: 1200px; height: 100px;
+    background-color: blueviolet;
+    line-height: 100px;
+}
+.logo {
+    width: 20%; height: 100px;
+    background-color: blanchedalmond;
+    float: left;
+    position: relative;
+}
+.logo > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.menu {
+    width: 80%; height: 100px;
+    background-color: lightcoral;
+    float: left;
+    position: relative;
+}
+.menu > img {
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+
+/* slide영역 */
+.slide {
+    width: 1200px; height: 300px;
+    background-color: crimson;
+    line-height: 300px;
+    position: relative;
+}
+.slide > img {
+    /* 아래를 다 입력해야 중간으로 감 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* content영역 */
+.content {
+    width: 1200px; height: 200px;
+    background-color: green;
+    line-height: 200px;
+}
+.notice {
+    width: 40%; height: 200px;
+    background-color: olive;
+    float: left;
+    position: relative;
+}
+.notice > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner {
+    width: 30%; height: 200px;
+    background-color: lightseagreen;
+    float: left;
+    position: relative;
+}
+.banner > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.link {
+    width: 30%; height: 200px;
+    background-color: lightslategray;
+    float: left;
+    position: relative;
+}
+.link > img {
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+
+/* footer영역 */
+footer {
+    width: 1200px; height: 100px;
+    background-color: gold;
+    line-height: 100px;
+}
+.f-logo {
+    width: 20%; height: 100px;
+    background-color: lightgreen;
+    float: left;
+    position: relative;
+}
+.f-logo > img {
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+.copyright {
+    width: 60%; height: 100px;
+    background-color: lightyellow;
+    float: left;
+    position: relative;
+}
+.copyright > img {
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+.sns {
+    width: 20%; height: 100px;
+    background-color: mediumpurple;
+    float: left;
+    position: relative;
+}
+.sns > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+* {
+    margin: 0; /* 여백 */
+}
+
+h1 {
+    width: 100px; height: 100px;
+    background-color: white;
+    color: crimson;
+    margin: 0 10px 20px 10px;
+    padding: 20px;
+    text-align: center;
+    line-height: 100px;
+    margin: 50px auto;
+    /* 너비가 있어야하고 display: block이여야 margin: 0 auto가 설정이 된다 */
+    border: 5px solid deepskyblue;
+    border-radius: 50%;
+}
+
+/* p {
+    background-color: cadetblue;
+    margin: 10px 50px;
+} */
+
+/* margin은 여백이 중첩된다 */
+.p1 {
+    width: 30%; height: 20px;
+    background-color: chartreuse;
+    margin: 30px 30px;
+    padding: 20px;
+    text-align: start;
+    line-height: 20px;
+    margin: 30px auto;
+    border: thick dotted deeppink;
+}
+.p2 {
+    width: 50%; height: 30px;
+    background-color: deeppink;
+    margin: 50px 30px;
+    padding: 20px;
+    text-align: center;
+    line-height: 30px;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+}
+.p3 {
+    width: 90%; height: 40px;
+    background-color: yellow;
+    margin: 50px 30px;
+    padding: 20px;
+    text-align: end;
+    line-height: 40px;
+    margin: 50px auto;
+    border: 2px double chartreuse;
+}
+.p4 {
+    width: 90%; height: 40px;
+    background-color: green;
+    margin: 50px 30px;
+    padding: 20px;
+    text-align: end;
+    line-height: 40px;
+    margin: 50px auto;
+    border: 2px groove cy;
+}
+.p5 {
+    width: 90%; height: 40px;
+    background-color: cyan;
+    margin: 50px 30px;
+    padding: 20px;
+    text-align: end;
+    line-height: 40px;
+    margin: 50px auto;
+    border: 2px inset chartreuse;
+}
+.p6 {
+    width: 90%; height: 40px;
+    background-color: purple;
+    margin: 50px 30px;
+    padding: 20px;
+    text-align: end;
+    line-height: 40px;
+    margin: 50px auto;
+    border: 2px outset chartreuse;
+}
+.p7 {
+    width: 90%; height: 40px;
+    background-color: magenta;
+    margin: 50px 30px;
+    padding: 20px;
+    text-align: end;
+    line-height: 40px;
+    margin: 50px auto;
+    border: 2px ridge chartreuse;
+}
+
+.belly01 {
+    width: 50%; height: 50%;
+    margin: 5% auto;
+    border: 10px inset skyblue;
+    border-radius: 50%;
+    display: block;
+}
+.belly02 {
+    width: 60%; height: 50%;
+    margin: 5% auto;
+    padding: 30px;
+    border: 15px dotted pink;
+    border-radius: 30%;
+    display: block;
+}

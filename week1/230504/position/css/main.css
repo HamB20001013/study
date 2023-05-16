@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 왼쪽 상단이 (0, 0) */
+/*
+positon
+relative: 자기 자신을 기준으로 배치
+absolute: 부모 요소를 기준으로 배치
+*/
+.main {
+    width: 500px; height: 500px;
+    background-color: orangered;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.pos1 {
+    width: 500px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    background-color: green;
+}
+.pos2 {
+    width: 400px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    background-color: yellowgreen;
+}
+.pos3 {
+    width: 300px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    background-color: yellow;
+}

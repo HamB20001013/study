@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+.inner {
+    width: 1200px; height: 700px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+header {
+    width: 1200px; height: 100px;
+    line-height: 100px;
+}
+.logo {
+    width: 10%; height: 100px;
+    background-color: aquamarine;
+    float: left;
+}
+.nav {
+    width: 90%; height: 100px;
+    background-color: brown;
+    float: left;
+}
+
+.menu {
+    width: 1200px; height: 160px;
+    background-color: crimson;
+    line-height: 160px;
+}
+
+.slide {
+    width: 1200px; height: 140px;
+    background-color: darkmagenta;
+    line-height: 140px;
+}
+
+.content {
+    width: 1200px; height: 200px;
+    line-height: 200px;
+}
+.notice {
+    width: 30%; height: 200px;
+    background-color: forestgreen;
+    float: left;
+}
+.gallery {
+    width: 40%; height: 200px;
+    background-color: gold;
+    float: left;
+}
+.link {
+    width: 30%; height: 200px;
+    background-color: hotpink;
+    float: left;
+}
+
+footer {
+    width: 1200px; height: 100px;
+    line-height: 50px;
+}
+.left {
+    width: 90%; height: 100px;
+    float: left;
+}
+.f_menu {
+    width: 100%; height: 50%;
+    background-color: indianred;
+}
+.copyright {
+    width: 100%; height: 50%;
+    background-color: khaki;
+}
+.site {
+    width: 10%; height: 100px;
+    background-color: lawngreen;
+    float: right;
+    line-height: 100px;
+}

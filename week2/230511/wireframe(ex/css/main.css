@@ -1,0 +1,246 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "맑은 고딕";
+    color: #333;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    display: block;
+}
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* 상단 */
+header {
+    width: 100%; height: 100px;
+
+}
+.top {
+    width: 100%; height: 100%;
+    position: relative;
+}
+.logo {
+    width: 250px; height: 100px;
+    float: left;
+}
+.logo img {
+    margin: 30px 0 0 25px;
+}
+/* 상단메뉴 */
+.menu {
+    float: right;
+    z-index: 1;
+    position: absolute;
+    right: 0; bottom: 0px;
+}
+/* .navi {
+    
+} */
+.navi > li {
+    width: 150px; height: 40px;
+    float: left;
+    background-color: #48487d;
+}
+.navi > li > a {
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+.navi > li:hover > a {
+    background-color: beige;
+    color: #48487d;
+}
+/* 목록에 올렸을 때 메뉴가 나타나라 */
+.navi > li:hover .submenu {
+    display: block;
+}
+/* 서브메뉴 */
+.submenu {
+    height: 120px;
+    display: none;
+    background-color: #48487d;
+}
+.submenu > li {
+    width: 150px; height: 40px;
+    background-color: #48487d;
+}
+.submenu > li > a {
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: beige;
+}
+.submenu > li > a:hover {
+    background-color: beige;
+    color: #48487d;
+}
+
+/* 본문 */
+.bodywrap {
+    width: 1000px; height: 500px;
+}
+/* 이미지슬라이드 */
+.imgslide {
+    width: 1000px; height: 300px;
+    position: relative;
+}
+.imgslide > a {
+    display: block;
+}
+.imgtext {
+    width: 300px; height: 50px;
+    background-color: rgba(39, 39, 39, 0.8);
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/* 콘텐츠 */
+.contents {
+    width: 1000px; height: 200px;
+}
+/* 공지사항 */
+.notice {
+    width: 390px; height: 180px;
+    float: left;
+    margin: 10px 0 0 0;
+}
+.tab {
+    width: 400px;
+}
+.tab h4 {
+    width: 120px; height: 20px;
+    font-size: 14px;
+    text-align: center;
+    /* float: left; */
+    font-weight: bold;
+    background-color: beige;
+}
+.notice > div {
+    width: 390px;
+    border-bottom: 2px solid black;
+}
+.notice li {
+    width: 370px; height: 38px;
+    float: left;
+    line-height: 38px;
+    font-size: 14px;
+    margin: 0 0px 0 10px;
+    border-bottom: 1px solid black;
+    /* background-color: coral; */
+}
+/* .notice li:nth-child(even) {
+    background-color: coral;
+} */
+.notice li:hover {
+    font-weight: bold;
+    background-color: white;
+}
+.notice li span {
+    float: right;
+}
+/* 갤러리 */
+.gallery {
+    width: 380px; height: 180px;
+    float: left;
+    margin: 10px 10px 0 10px;
+}
+.gallery > div {
+    border-bottom: 2px solid black;
+}
+.gallery li {
+    float: left;
+}
+.gallery li:first-child {
+    margin: 0 0 0 1px;
+}
+.gallery img {
+    width: 116px; height: 145px;
+    margin: 5px;
+}
+.gallery img:hover {
+    opacity: 0.5;
+}
+/* 바로가기 */
+.shortcut {
+    width: 200px; height: 180px;
+    float: left;
+    margin: 10px 0 0 0;
+    position: relative;
+}
+.shortcut img {
+    width: 200px; height: 180px;
+}
+.shortcut .sctext {
+    width: 100px; height: 30px;
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 하단 */
+footer {
+    width: 1000px; height: 100px;
+    background-color: #48487d;
+}
+.copy {
+    width: 500px; height: 100px;
+    float: left;
+    line-height: 100px;
+    color: white;
+    text-align: center;
+}
+.site {
+    width: 500px; height: 100px;
+    float: left;
+}
+.btmenu {
+    width: 500px; height: 50px;
+    float: left;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+}
+.btmenu ul {
+    margin: 0 0 0 200px;
+}
+.btmenu li > a {
+    width: 100px;
+    float: left;
+    color: white;
+}
+.btmenu li > a:hover {
+    font-weight: bold;
+}
+.familysite {
+    width: 500px; height: 50px;
+    float: right;
+}
+.familysite select {
+    width: 270px;
+    margin: 0px 20px 0 0;
+    float: right;
+    font-size: 14px;
+}

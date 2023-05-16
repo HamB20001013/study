@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 960px; height: 80px;
+    margin: 0 auto;
+}
+.navi {
+    width: 960px; height: 60px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+.navi ul {
+    list-style: none;
+    padding: 10px 0 0 0;
+    text-align: center;
+    padding: 0 0 5px 0;
+}
+.navi ul li {
+    width: 200px;
+    float: left;
+    padding: 10px;
+}
+/* 이 링크를 링크했을 때, 방문했을 때 어떻게 할꺼다!! */
+.navi a:link, .navi a:visited {
+    display: block; /* 글자만큼만 잡혔던 칸이 block을 하면 li너비 만큼 넓어진다 */
+    font-size: 14px;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+.navi a:hover, .navi a:focus {
+    background-color: #222;
+    color: white;
+}
+.navi a:active {
+    background-color: red;
+}
+
+.contents {
+    width: 400px;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+#intro:target {
+    background-color: purple;
+    color: white;
+    transform: rotate(30deg);
+}
+#room:target {
+    background-color: greenyellow;
+    transform: rotate(-30deg);
+}
+#reservation:target {
+    background-color: orange;
+    transform: rotate(30deg);
+}

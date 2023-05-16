@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+
+/* .wrap {
+    
+} */
+
+.inner {
+    margin: 0 auto;
+    width: 1200px; height: 700px;
+    background-color: lightblue;
+}
+
+/* header영역 */
+header {
+    width: 1200px; height: 100px;
+    background-color: lightcoral;
+}
+.logo {
+    width: 20%; height: 100px;
+    background-color: lightcyan;
+    float: left;
+}
+.menu {
+    width: 80%; height: 100px;
+    background-color: lightgoldenrodyellow;
+    float: left;
+}
+
+/* slide영역 */
+.slide {
+    width: 1200px; height: 300px;
+    background-color: lightgray;
+}
+
+/* content영역 */
+.content {
+    width: 1200px; height: 200px;
+    background-color: lightgreen;
+}
+.notice {
+    width: 40%; height: 200px;
+    background-color: lightyellow;
+    float: left;
+}
+.gallery {
+    width: 30%; height: 200px;
+    background-color: lightpink;
+    float: left;
+}
+.banner {
+    width: 30%; height: 200px;
+    background-color: lightsalmon;
+    float: left;
+}
+
+
+/* footer영역 */
+footer {
+    width: 1200px; height: 100px;
+    background-color: lightseagreen;
+}
+.f-logo {
+    width: 20%; height: 100px;
+    background-color: lightskyblue;
+    float: left;
+}
+.copyright {
+    width: 60%; height: 100px;
+    background-color: lightslategray;
+    float: left;
+}
+.site {
+    width: 20%; height: 100px;
+    background-color: lightsteelblue;
+    float: left;
+}
