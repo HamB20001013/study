@@ -1,0 +1,32 @@
+#container {
+    width: 800px; height: 200px;
+    margin: 20px auto;
+}
+
+.origin {
+    width: 100px; height: 100px;
+    margin: 40px;
+    float: left;
+    border: 1px solid black;
+    perspective: 100px;
+}
+.origin > div {
+    width: 100px; height: 100px;
+    transition: all 0.75s;
+    background-color: lightsteelblue;
+}
+#rotatex:hover {
+    /* transform: rotatex(55deg); */
+    transform: skewx(55deg);
+}
+#rotatey:hover {
+    /* transform: rotatey(55deg); */
+    transform: skewy(55deg);
+}
+#rotatez:hover {
+    /* transform: rotatez(-360deg); */
+    transform: skew(-25deg, -15deg);
+}
+#rotatexyz:hover {
+    transform: rotate3d(3, 1.2, -1.5, 45deg);
+}
