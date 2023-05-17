@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container01 {
+    width: 800px; height: 200px;
+    margin: 20px auto;
+    background-color: black;
+}
+
+.origin01 {
+    width: 100px; height: 100px;
+    border: 1px solid blue;
+    float: left;
+    margin: 40px;
+}
+.origin01 > div {
+    width: 100px; height: 100px;
+    background-color: gold;
+}
+
+.move_x:hover {
+    transform: translateX(50px) scalex(50%) rotatex(90deg);
+    transition: 0.5s;
+    background-color: magenta;
+}
+.move_y:hover {
+    transform: translatey(50px) scaley(50%) rotatey(180deg);
+    transition: 0.5s;
+    background-color: magenta;
+}
+.move_xy:hover {
+    transform: translate(50px, 50px) scale(50%, 50%) rotate(720deg);
+    transition: 0.5s;
+    background-color: magenta;
+}
+
+#container02 {
+    width: 800px; height: 200px;
+    margin: 20px auto;
+    background-color: darkred;
+}
+.origin02 {
+    width: 100px; height: 100px;
+    border: 1px solid darkgreen;
+    float: left;
+    margin: 40px;
+}
+#per {
+    perspective: 100px;
+}
+#rotate01:hover {
+    transform: rotatex(60deg);
+}
+#rotate02:hover {
+    transform: rotate(-40deg);
+}
+#rotate03:hover {
+    transform: rotatex(40deg);
+}
+#rotate04:hover {
+    transform: rotatey(50deg);
+}
