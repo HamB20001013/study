@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1200px; height: 200px;
+    margin: 0 auto;
+}
+h1 {
+    width: 1200px; height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.contents {
+    width: 1200px; height: 200px;
+}
+.contents > div {
+    width: 300px; height: 200px;
+    float: left;
+    margin: 0 50px;
+}
+.contents > div img {
+    height: 200px;
+    float: left;
+}
+.text {
+    width: 300px; height: 190px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: none;
+}
+/* product1 영역 */
+.product1:hover .text {
+    display: block;
+    transform: translatey(-200px);
+    color: white;
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+/* product2 영역 */
+.product2:hover .text {
+    display: block;
+    transform: translatey(-200px);
+    color: white;
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+/* product3 영역 */
+.product3:hover .text {
+    display: block;
+    transform: translatey(-200px);
+    color: white;
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+.text h2 {
+    width: 100%; height: 40px;
+    line-height: 40px;
+}
+.text ul li {
+    margin: 10px 0;
+}
